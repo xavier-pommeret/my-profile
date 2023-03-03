@@ -1,0 +1,60 @@
+/* colors and fonts */
+
+body {
+	background: #F7F9FC;
+	color: #575F7D;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: lighter;
+}
+h1, h2, h3{
+	font-family: Roboto;
+}
+h1{
+	color: #575F7D
+	font-size:32px;
+}
+h3{
+	color: #7ECE90;
+	font-size:24px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: bold;
+}
+a:hover{
+	color: black
+}
+
+/*custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: purple;
+	color: white;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
